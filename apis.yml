@@ -1,8 +1,25 @@
 aid: omass-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/omass-therapeutics.png
 name: OMass Therapeutics
-description: 'OMass Therapeutics is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'OMass Therapeutics is an Oxford, UK biotechnology company developing
+  medicines for immunological and rare diseases. It harnesses proprietary biochemistry,
+  native mass spectrometry and custom chemistry through its OdyssION drug discovery
+  platform to interrogate drug targets and how they interact with their native
+  biological ecosystem, separate from the confounding complexity of the cell. The
+  company operates a corporate and scientific web presence (science, pipeline, publications,
+  news and blog) and, as a therapeutics company, publishes no public developer or
+  API surface. Backed by GV and other life-sciences investors.'
 url: https://raw.githubusercontent.com/api-evangelist/omass-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Mass Spectrometry
+- Immunology
+- Rare Diseases
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/omass-therapeutics-domain-security.yml
 - type: Website
-  url: http://omass.com
+  url: https://www.omass.com
+- type: Blog
+  url: https://www.omass.com/blog/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
